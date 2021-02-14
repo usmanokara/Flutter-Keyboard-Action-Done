@@ -5,11 +5,11 @@ You might have come with a problem dismissing iOS keyboard when using  input typ
 ## Very simple to use 
 -Just copy and paste below code int statefull widget where you are getting information Via <b>TextField</b><br>
 <code>
-<pre>
-  @override
-  void initState() {
-    super.initState();
-    KeyBoardDoneController.init(context);
-  }
-<pre>
+        <pre>
+          @override
+          void initState() {
+            super.initState();
+            KeyBoardDoneController.init(context);
+          }
+        </pre>
 </code>
